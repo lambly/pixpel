@@ -1,0 +1,30 @@
+.inventory {
+&__row {
+  gap: 10px;
+}
+}
+.inventory-card {
+  max-width: 205px;
+  width: 100%;
+  background: #29313C;
+  border-radius: 5px;
+  padding: 15px 15px 21px 15px;
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 157px;
+    background: #37404C;
+
+  }
+  &__text {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  &__picture {
+  }
+}
