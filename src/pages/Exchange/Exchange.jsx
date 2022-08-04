@@ -5,8 +5,7 @@ import {Header, Button } from "../../components";
 import Select from 'react-select'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import "../../components/Button/Button.scss"
-import "../../components/Header/Header.scss"
+
 import "./Exchange.scss"
 const options = [
     { value: 'chocolate', label: 'Chocolate' },

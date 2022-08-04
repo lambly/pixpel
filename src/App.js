@@ -1,9 +1,10 @@
 import { Routes, Route, Link } from "react-router-dom";
+import './scss/index.scss';
+
 import {
     AddressManagement,
     Home,
     NFTMarket,
-    GameMarket,
     Stacking,
     Exchange,
     HelpCenter,
@@ -13,7 +14,8 @@ import {
     SwapMaster,
     UserHome,
     Wallet,
-    Withdraw
+    Withdraw,
+    GameMarket
 } from "./pages/index"
 
 function About() {

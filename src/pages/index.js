@@ -1,6 +1,5 @@
 import AddressManagement from "./AddressManagement/AddressManagement";
 import Exchange from "./Exchange/Exchange";
-import GameMarket from "./GameMarket/GameMarket";
 import HelpCenter from "./GameMarket/GameMarket";
 import Home from "./Home/Home";
 import Inventory from "./Inventory/Inventory";
@@ -12,12 +11,11 @@ import SwapMaster from "./SwapMaster/SwapMaster";
 import UserHome from "./UserHome/UserHome";
 import Wallet from "./Wallet/Wallet";
 import Withdraw from "./Withdraw/Withdraw";
-
+import GameMarket from "./GameMarket/GameMarket";
 export {
     AddressManagement,
     Home,
     NFTMarket,
-    GameMarket,
     Stacking,
     Exchange,
     HelpCenter,
@@ -27,5 +25,6 @@ export {
     SwapMaster,
     UserHome,
     Wallet,
-    Withdraw
+    Withdraw,
+    GameMarket
 }

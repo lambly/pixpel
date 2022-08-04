@@ -23,8 +23,6 @@ const customStyles = {
         borderRadius: '5px',
         paddingTop: 18,
         paddingBottom: 18,
-        paddingLeft: 25,
-        paddingRight: 25,
         display: 'flex'
     }),
     indicatorSeparator: () => (
@@ -38,7 +36,7 @@ const Filter = (props) => {
     let className = 'filter'
     if (props.classes) className += ` ${props.classes}`
 
-    return (
+    return ( <>
         <div className={className}>
             <input type="text" placeholder="search" className="filter__input" />
             <Select options={options} styles={customStyles} />
@@ -56,6 +54,7 @@ const Filter = (props) => {
                 Cart
             </button>
          </div>
+        </>
     )
 }
 

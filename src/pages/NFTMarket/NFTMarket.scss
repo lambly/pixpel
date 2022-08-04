@@ -8,4 +8,12 @@
   &__row {
     gap: 15px;
   }
+  &__inner {
+    position: relative;
+  }
+  &__cart {
+    position: absolute;
+    height: 100%;
+    top: 0;
+  }
 }

@@ -3,10 +3,7 @@ import "./Home.scss"
 import Banner from  "../../components/Banner/Banner"
 import Button from  "../../components/Button/Button"
 import Header from  "../../components/Header/Header"
-import "../../components/Menu/Menu.scss"
-import "../../components/Header/Header.scss"
-import "../../components/Button/Button.scss"
-import "../../components/Banner/Banner.scss"
+
 const Home = () => {
 
     return (<>
