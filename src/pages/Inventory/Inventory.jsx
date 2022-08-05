@@ -103,7 +103,6 @@ const Inventory = () => {
                         Inventory
                     </h1>
                     <div className="inventory__row">
-
                         <div className="inventory__col widget" style={{height: '100%',width:'100%', maxWidth: 780, marginRight: 30}}>
                             <div className="widget__row" style={{gap: 30}}>
                                 <div className="widget__col" >

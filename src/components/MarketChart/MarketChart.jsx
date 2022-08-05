@@ -4,9 +4,9 @@ import {Line} from 'react-chartjs-2';
 
 const RGB_COLOR_GROWTH = "46, 189, 133",
         RGB_COLOR_FALL = "189, 46, 46"
-const getDataChart = (ctx, isGrowth = true, data) => {
+const getDataChart = (ctx, isGrowth = true, data, height = 50) => {
     const setColor = (opacity = 1) => isGrowth === true ? `rgba(${RGB_COLOR_GROWTH}, ${opacity})` : `rgba(${RGB_COLOR_FALL}, ${opacity})`
-    const gradient = ctx.createLinearGradient(0, 0, 0, 50);
+    const gradient = ctx.createLinearGradient(0, 0, 0, height / 1.3);
     gradient.addColorStop(0, setColor());
     gradient.addColorStop(1, setColor(0));
 
@@ -60,7 +60,7 @@ const MarketChart = (props) => {
             return;
         }
 
-        setChartData(getDataChart(chart.ctx, props.isGrowth, props.data))
+        setChartData(getDataChart(chart.ctx, props.isGrowth, props.data, props.sizeChart.maxHeight))
     }, [])
 
 

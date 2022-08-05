@@ -204,3 +204,10 @@ h6 {
 }
 
 
+.react-tabs__tab:focus:after {
+  display: none;
+}
+.react-tabs__tab-list {
+  border-bottom: none;
+  margin: 0;
+}
